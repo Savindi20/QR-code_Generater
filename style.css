@@ -35,9 +35,7 @@ body{
     padding: 10px;
     margin: 10px 0 20px;
     border-radius: 5px;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    box-shadow:2px 3px rgba(180, 180, 180, 0.719);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .container button{
