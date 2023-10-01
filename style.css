@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #121d2b;
+    background: #1d2229;
 }
 
 .container{
@@ -16,7 +16,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: #a9ceff;
+    background: #c3dbfc;
     border-radius: 10px;
     box-shadow:3px 3px rgb(216, 216, 216);
 }
@@ -30,18 +30,20 @@ body{
 .container input{
     width: 100%;
     height: 50px;
-    border: 1px solid #000000;
+    border: 1px solid rgba(180, 180, 180, 0.719);
     outline: 0;
     padding: 10px;
     margin: 10px 0 20px;
     border-radius: 5px;
-    box-shadow:2px 3px rgba(78, 73, 73, 0.719);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    box-shadow:2px 3px rgba(180, 180, 180, 0.719);
 }
 
 .container button{
     width: 100%;
     height: 50px;
-    background: #955cff;
+    background: #7a71ff;
     color: #fff;
     border: 0;
     outline: 0;
