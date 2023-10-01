@@ -4,3 +4,18 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
+
+body{
+    background: #121d2b;
+}
+
+.container{
+    width: 400px;
+    padding: 25px 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #a9ceff;
+    border-radius: 10px;
+}
