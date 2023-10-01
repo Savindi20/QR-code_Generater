@@ -18,4 +18,36 @@ body{
     transform: translate(-50%,-50%);
     background: #a9ceff;
     border-radius: 10px;
+    box-shadow:3px 3px rgb(216, 216, 216);
+}
+
+.container p{
+    font-weight: 550;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.container input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000000;
+    outline: 0;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 5px;
+    box-shadow:2px 3px rgba(78, 73, 73, 0.719);
+}
+
+.container button{
+    width: 100%;
+    height: 50px;
+    background: #955cff;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: 500;
 }
